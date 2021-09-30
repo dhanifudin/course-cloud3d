@@ -11,3 +11,17 @@ Platform-as-a-Service menawarkan lingkungan runtime untuk aplikasi. Serta menawa
 - PaaS menyediakan alat built-in untuk menentukan alur kerja, proses persetujuan, dan peraturan bisnis.
 - Sangat mudah untuk mengintegrasikan PaaS dengan aplikasi lain pada platform yang sama.
 - PaaS juga menyediakan layanan web interface yang memungkinkan kita untuk menghubungkan aplikasi di luar platform.
+
+## Jenis Platform as a Service (PaaS)
+Berdasarkan fungsinya, PaaS dapat diklasifikasikan menjadi empat jenis, meliputi:
+1. Application delivery-only environments \
+Pengiriman aplikasi PaaS mencakup skala permintaan dan keamanan aplikasi
+
+2. Stand-alone development environments \
+PaaS yang berdiri sendiri bekerja sebagai entitas independen untuk fungsi tertentu. Ini tidak termasuk lisensi atau dependensi teknis pada aplikasi SaaS tertentu.
+
+3. Open platform as a service \
+Open PaaS menawarkan open source software yang membantu Paas provider untuk menjalankan aplikasinya
+
+4. Add-on development facilities \
+Add-on yang mengijinkan user untuk mengcustomize Saas yang sudah ada.
