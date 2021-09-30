@@ -1,0 +1,46 @@
+Komputasi Awan dan Sistem Terdistribusi
+Ada beberapa jenis-jenis dari compute, yaitu sebagai berikut :
+1. Oracle Cloud infrastructure memberi 2 jenis instances yaitu bare metal dan virtual machine atau bisa juga di sebut dengan VM :
+   - Bare Metal merupakan instances komputasi bare metal yang memeberikan kita akses kepada server fisik khusus yang digunakan untuk kinerja tetinggi dan sebuah isolasi yang kuat.
+    - Virtual Machine (VM) merupakan lingkungan komputasi independence secara virtual yang berjalan diatas perangkat keras fisik bare metal. Virtualisasi sangat memungkinkan untuk menjalankan beberapa VM yang terisolasi satu sam alain. VM ideal untuk menjalankan sebuah aplikasi yang tidak memerlukan kinerja dan sumber daya seperti CPU, memori, bandwidth jaringan dan juga penyimpanan dari keseluruhan mesin fisik
+Di sini juga ada jenis-jenis instance 
+ketika sedang membuat sebbuah compute instance, kalian dapat memilih jenis instance yang akan digunakan sesuai dengan kebutuhan berdasarkan karakteristik sumber daya
+Berikut merupakan jenis-jenis instance, yaitu :
+1. Jenis Shape
+    OCI menawarkan berbagai variasi shapes. Shapes merupakan sebuat templat yang menentukan kebutuhan jumlah CPU, volume memori, dan juga sumber daya lainnya yang akan di alokasikan untuk sebuah compute instance.
+    Berikut merupakan jenis-jenis shape yang tersedia, yaitu :
+    - Standard Shape
+      Standard shape ini dirancang untuk kebutuhan umum yang banyak digunakan pada aplikasi-aplikasi dan use cases pada umumnya. Standard shape juga menyediakan sumber daya yang seimbang pada core, memori, dan juga jaringan. Standard shape juga tersedia denhgan prosesor intel, AMD, dan Aem-based.
+    - DenseIO Shapes
+      DenseIO shapes ini dirancang untuk basis data yang besar, seperti big data dan aplikasi-aplikasi yang membutuhkan performa storage yang tinggi. Shapes ini mendapat fitur NVMe berbasis SSD.
+    - GPU Shapes
+      GPU shapesini dirancang untuk akselerasi pada hardware terutama kebutuhan GPU termasuk Inter, AMD CPU dan prosesor grafis NVIDIA.
+    - High Performance Computing (HCP) Shapes
+      High performance computing (HPC) shapes ini dirancang untuk komputasi performa tinggi yang membutuhkan frekuensi prosesor core yang tinggi dan HPC dalam klaster jaringan yang akan diakses secara paralel.
+    - Optimized Shape 
+      Opitimazed shape dirancang untuk kumputasi tingkat tinggi pada frekuensi core prosesor. Shape ini juga cocok digunakan untuk kebutuhan HPS dengan low latency. Shape ini juga mendukung cluster networking.
+2. Flexible Shapes
+   Flexible shapes merupakan sebuah templat yang dapat melakukan kustom sejumlah OCPU dan juga memori ketika melakukan launching atau mengubah VM.
+   OCPU ekuivalen dengan satu core fisik dengan multithreading simultan (hyper-threading), di mana setiap OCPU menuju kepada dua hardware yang mengeksekusi threads (juga dikenal sebagai virtual CPUs atau vCPUs).
+   Ketika kalian sedang membuat VM menggunakan flexible shape, pilihan jumlah OCPU dan volume memori yang dibutuhkan dapat disesuaikan.
+Dibawah ini merupakan jenis-jenis flexible shapes yang tersedia, yaitu :
+  - VM.Standard.E3.Flex (AMD)
+  - VM.Standard.E4.Flex (AMD)
+  - VM.Optimized3.Flex (Intel)
+  - VM.Standard.A1.Flex (Arm processor dari Ampere)
+Jenis-jenis Kapasitas
+Kalian dapat memilih kapasitas pada tiap jenis host yang digunakan untuk VM.
+  - On-demand capacity
+  - Preemptible capacity
+  - Reserved capacity
+  - Dedicated capacity
+Berikut adalah komponen-komponen ketika membuat VM, yaitu :
+  - Availability domain
+  - Virtual cloud network
+  - Key pair (untuk Linux)
+  - Tags
+  - Password (untuk Windows)
+  - Image
+  - Shape
+
+

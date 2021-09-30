@@ -1,0 +1,42 @@
+virtual Cloud Networking
+Ada beberapa Komponen- komponen Networking, yaitu sebagai berikut :
+- VIRTUAL CLOUD NETWORK (VCN)
+- SUBNETS
+- VNIC (Virtual Network Interface Cards)
+- PRIVATE IP
+- PUBLIC IP
+- IPV6
+- DYNAMIC ROUTING GATEWAY (DRG)
+- INTERNET GATEWAY
+- NETWORK ADDRESS TRANSLATION (NAT) GATEWAY
+- SERVICE GATEWAY
+- LOCAL PEERING GATEWAY (LPG)
+- REMOTE PEERING CONNECTION (RPC)
+- ROUTE TABLES
+- SECURITY RULES
+- DHCP OPTIONS
+Virtual Cloud Networking (VCN)
+  jaringan pribadi virtual yang disiapkan pada pusat data oracle sangat mirip dengan jaringan konvensional, dengan aturan firewall dan juga jenis gateway komunikasi tertentu yang dapat dipilih untuk digunakan.
+VCN ini berada pada satu region Oracle Cloud infrastructure dan juga mencakup satu atu beberapa blok CIDR (IPv4 dan IPv6, jika di aktifkan)
+Subnets
+  Subnets merupakan subdivisi yang ditentukan dalam VCN (misalnya, 10.0.0.0/24, 10.0.1.0/24, atau 2001:DB8::/64). Subnet berisi Virtual Network Interface Cards (VNIC), yang ditautkan ke dalam instance. Setiap subnet terdiri dari rentang alamat IP yang berdekatan (untuk IPv4 dan IPv6, jika diaktifkan) yang tidak saling tumpang tindih dengan subnet lain dalam VCN
+VNIC (Virtual Network Interface Cards)
+  VNIC ini melekat pada sebuah instance dan berada pada subnet untuk mengaktifkan koneksi ke VCN subnet. VNIC menentukan bagaimana cara instances terhubung dengan endpoints di dalam dan di luar VCN. Setiap instans memiliki VNIC utama yang dibuat bersamaan dengan instance dan tidak dapat dihapus.
+Private IP
+  Alamat IPv4 pribadi dan informasi yang terkait untuk menangani instance (misalnya, nama host untuk DNS). Setiap VNIC memiliki IP pribadi primer, dan kalian juga dapat menambah dan menghapus IP pribadi sekunder. Alamat IP pribadi utama pada instance tidak akan berubah selama instance masih digunakan dan tidak dapat dihapus dari instance tersebut.
+Public IP
+  Alamat IPv4 publik dan informasi terkait. kalian dapat secara opsional menetapkan IP publik ke instances kalian atau sumber daya lain yang memiliki IP pribadi. IP publik dapat bersifat sementara atau dilindungi undang-undang.
+Dynamic Routing Gateway (DRG)
+  Router virtual (opsional) yang dapat kalian tambahkan ke VCN kalian ini juga menyediakan jalur lintas jaringan pribadi antara VCN dengan jaringan lokal.
+ Service Gateway
+  Router virtual (opsional) yang dapat kalian tambahkan ke VCN kalian ini juga menyediakan jalur lintas jaringan pribadi antara VCN dan layanan yang disukung di Oracle Service Network.
+Local Peering Gateway (LPG)
+  Peering berarti VCN berkomunikasi menggunakan alamat IP pribadi, tanpa menggunakan lalu lintas internet atau hanya melalui jaringan lokal di cloud.
+ Remote Peering Connection (RPC)
+  Komponen yang dapat kalian tambahkan ke DRG ini memungkinkan mengaitkan satu VCN dengan VCN lain di wilayah yang berbeda.
+Route Tables
+  Virtual route tables untuk VCN. Mereka memiliki aturan untuk merutekan lalu lintas dari subnet ke tujuan di luar VCN melalui gateway atau instance yang dikonfigurasi secara khusus. 
+Security RUles
+  Aturan firewall virtual untuk VCN kalian. Ini untuk aturan masuk dan keluar yang akan menentukan jenis lalu lintas (protokol dan port) yang diizinkan masuk dan keluar dari instance. kalian juga dapat memilih apakah aturan yang diberikan bersifat stateful atau stateless.
+DHCP Options
+  Informasi konfigurasi yang secara otomatis diberikan ke instance saat dilakukan booting
