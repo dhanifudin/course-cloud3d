@@ -1,0 +1,17 @@
+# PERTEMUAN 07
+
+Untuk membantu produktivitas, PaaS menawarkan komponen pemrograman siap pakai yang memungkinkan pengembang membangun kemampuan baru ke dalam aplikasi mereka, termasuk teknologi inovatif seperti kecerdasan buatan (AI), chatbots, blockchain, Internet of Things (IoT). Hal ini juga mencakup rangkaian alat pengembangan aplikasi, termasuk layanan asli cloud, Kubernetes, Docker dan mesin kontainer.
+
+PaaS adalah pendekatan evolusioner untuk memberikan middleware dan kapasitas database yangdibutuhkan untuk meng-host aplikasi. Ketika sepenuhnya diimplementasikan, PaaS akan
+memberikan:
+• Penyediaan kapasitas yang cepat (mendekati waktu nyata) terhadap server fisik
+• Aplikasi yang sangat dioptimalkan untuk rasio server dan kemampuan untuk mematikan
+kapasitas cadangan (spare capacity)
+• Pemantauan lintas domain dan peringatan yang proaktif (proactive alerting)
+• Fasilitas pengukuran untuk menetapkan parameter penggunaan untuk penyewa PaaS
+
+Layanan yang ditawarkan PaaS
+1. Kecerdasan Buatan
+2. Chatbots
+3. Blockchain
+4. Internet of Things (IoT)
