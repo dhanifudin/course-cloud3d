@@ -43,6 +43,9 @@ Setiap layanan di Oracle Cloud Infrastructure terintegrasi dengan IAM untuk oten
 Dapat meningkatkan keamanan Object Storage policies dengan membatasi akses hanya untuk permintaan yang berasal dari alamat IP yang diizinkan.
 
 ## Limits on Object Storage Resources-Object Storage IP Addresses
+Oracle Cloud Infrastructure Object Storage service menggunakan CIDR dengan blok IP range 134.70.0.0/16 untuk semua region.
+
+## Limits on Object Storage Resources-Object Storage IP Addresses
 - Number of Object Storage namespaces per root compartment: 1
 - Maximum object size: 10 TiB
 - Maximum object part size in a multipart upload: 50 GiB
