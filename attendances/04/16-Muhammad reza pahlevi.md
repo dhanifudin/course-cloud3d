@@ -22,3 +22,6 @@ Virtual Cloud Network (VCN) mengacu pada sistem yang memiliki perangkat, mesin v
 - ROUTE TABLES
 - SECURITY RULES
 - DHCP OPTIONS
+### Penjelasan 
+Jaringan pribadi yang ddisapkan di pusat data Oracle mirip dengan jaringan konvensional, dengan aturan firewall dan jenis gateway komunikasi tertentu yang dapat dipilih untuk digunakan. Subnet berisi Virtual Network Interface Cards (VNIC), yang ditautkan ke dalam instance. Setiap subnet terdiri dari rentang alamat IP yang berdekatan (untuk IPv4 dan IPv6, jika diaktifkan) yang tidak tumpang tindih dengan subnet lain dalam VCN.
+
