@@ -1,0 +1,7 @@
+Pendahuluan Object Storage
+
+Layanan Oracle Cloud Infrastructure Object Storage adalah platform penyimpanan yang memiliki performa yang tinggi dan scalable, menawarkan ketahanan data yang andal dan hemat biaya. Object Storage menawarkan beberapa interface yang memungkinkan Kita mengelola penyimpanan dalam skala besar dengan mudah.
+
+Object Storage Resource
+
+Bucket dikaitkan dengan kompartemen tunggal yang memiliki policies untuk menentukan tindakan apa yang dapat dilakukan pengguna pada bucket dan pada semua objek dalam bucket. Pada waktu pembuatan akun, setiap penyewa Oracle Cloud Infrastructure diberi satu nama namespase Object Storage unik yang dibuat oleh sistem dan tidak dapat diubah. Compartment, Kompartemen adalah primary block building yang digunakan untuk mengatur sumber daya cloud. Kita dapat mengontrol akses dengan membuat kebijakan yang menentukan tindakan apa yang dapat dilakukan grup pengguna terhadap sumber daya di kompartemen tersebut.

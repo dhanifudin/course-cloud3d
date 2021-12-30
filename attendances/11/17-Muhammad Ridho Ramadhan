@@ -1,0 +1,15 @@
+Tipe Docker Network
+1. bridge
+tipe ini adalah default network. Docker menyambungkan container ke network ini secara default, kecuali memilih opsi driver yang berbeda ketika menjalankan docker run --network=<NETWORK>
+
+2. host
+container yang berada pada jaringan host. Tidak ada batasan antara container dan host. Port yang ada dibuka pada host bisa diakses langsung oleh container, begitu juga sebaliknya.
+
+3. none
+bertujuan untuk tidak mengkonfigurasi networking, ketika tidak menginginkan container untuk dapat diakses perintah yang digunakan dengan menambahkkan parameter -net=none
+
+perintah pada docker network
+1. docker network ls , menampilkan daftar network.
+2. docker network connect , menyambungkan container ke network.
+3. docker network disconnect , memutus sambungan container ke network.
+4. docker network rm , menghapus network.

@@ -1,0 +1,21 @@
+# PERTEMUAN 10
+
+# DOCKER
+
+# PENGERTIAN
+Merupakan platform atau aplikasi yang bersifat open source untuk memasukkan dan menyatukan beberapa file software yang disatukan ke dalam suatu wadah atau biasa disebut dengan container. container tersebut nantinya akan memuat kumpulan image yang berisi data konfigurasi dan file pendukung lainnya. Sehingga, sering kali, Docker digunakan sebagai solusi bagi tim developer dalam mengembangkan aplikasi di berbagai environment yang ada. 
+
+# FUNGSI
+1. Mempermudah Pengembangan Aplikasi
+2. Menyederhanakan Konfigurasi
+3. Memudahkan Pengembangan Kode Pipeline
+4. Bisa Digunakan untuk Debugging
+5. Mendukung Multitenancy
+6. Meningkatkan Sumber Daya dengan Cepat
+
+# KEUNTUNGAN
+1. Portability
+2. Quick deployment/teardown
+3. Managing infrastructure-like code
+4. Open source
+5. consistency
