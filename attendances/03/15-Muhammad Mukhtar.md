@@ -1,0 +1,1 @@
+Pada pertemuan minggu ini mempelajari tentang Komputasi Awan dan Sistem Terdistribusi yang di dalamnya ada jenis jenis compute (bare metal dan VM), jenis jenis instance, jenis jenis kapasitas serta cara membuat VM di layanan compute oracle cloud.
