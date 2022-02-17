@@ -1,0 +1,13 @@
+# Serverless
+Oracle Cloud Functions adalah platform serverless memungkinkan pengembang membuat, menjalankan, dan menskalakan aplikasi tanpa mengelola infrastruktur apa pun. Fungsi terintegrasi dengan Oracle Cloud Infrastructure, layanan platform, dan aplikasi SaaS. Karena Functions didasarkan pada Fn Project open source, pengembang dapat membuat aplikasi yang dapat dengan mudah di-porting ke lingkungan cloud dan lokal lainnya. Kode berdasarkan Fungsi biasanya berjalan untuk jangka waktu pendek, dan pelanggan hanya membayar untuk sumber daya yang mereka gunakan. 
+# Fitur-fitur ditawarkan
+## Untuk Developer
+- **Pengembang tidak perlu mengelola infrastruktur apa pun** - Cukup tulis dan terapkan kode Anda. Oracle akan secara otomatis menyediakan dan menskalakan sumber daya.
+- **Dukungan untuk berbagai bahasa pemrograman** - Dengan dukungan untuk Python, Go, Java, Node, dan bahasa lainnya, pengembang dapat memilih bahasa yang paling sesuai untuk setiap tugas dan dengan mudah mengintegrasikan aplikasi tanpa server mereka.
+- **Dibangun di atas standar terbuka** - Functions adalah platform terbuka yang dibangun di atas Fn Project, Docker, dan CloudEvents berlisensi Apache 2.0. Pelanggan dapat menggunakan layanan terkelola, atau kluster Fn berbasis sumber terbuka yang dikelola sendiri yang disebarkan di tempat atau di cloud apa pun.
+## Keamanan & Integrasi
+- **Kontrol akses** - Administrator dapat memberikan kontrol akses untuk mengelola, menjalankan, dan mengakses Fungsi dengan aman menggunakan kebijakan Oracle Identity and Access Management.
+- **Isolasi kode** - Fungsi dapat menjalankan kode Anda dengan cara yang aman dan terisolasi. Dengan menggunakan sumber daya komputasi dan jaringan yang berbeda, layanan ini menyediakan pemisahan yang ketat dari eksekusi kode di seluruh pelanggan.
+- **Otentikasi aman dan manajemen rahasia** - Gunakan Vault untuk menyimpan data konfigurasi sensitif, seperti sandi dan kunci API, sebagai rahasia. Tulis fungsi menggunakan rahasia ini untuk mengautentikasi dengan aman terhadap database, penyimpanan, dan layanan lainnya.
+- **Kemampuan pemecahan masalah** - Gunakan Fungsi dengan log, metrik, dan pelacakan untuk memantau, memecahkan masalah, dan mendapatkan wawasan tentang kode Anda.
+- **Simple pricing** - Bayar berdasarkan permintaan dan waktu eksekusi, dengan tarif yang konsisten di semua wilayah. Dapatkan dua juta panggilan gratis per bulan.
